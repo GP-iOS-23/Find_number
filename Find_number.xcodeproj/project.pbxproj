@@ -14,6 +14,9 @@
 		704E621D29E84DAE004FF31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704E621B29E84DAE004FF31C /* Main.storyboard */; };
 		704E621F29E84DB0004FF31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704E621E29E84DB0004FF31C /* Assets.xcassets */; };
 		704E622229E84DB0004FF31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704E622029E84DB0004FF31C /* LaunchScreen.storyboard */; };
+		70C09D0F29FBFDA900F26865 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C09D0E29FBFDA900F26865 /* SelectTimeViewController.swift */; };
+		70C09D1129FBFDC800F26865 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C09D1029FBFDC800F26865 /* SettingsTableViewController.swift */; };
+		70C09D1329FC0DD100F26865 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C09D1229FC0DD100F26865 /* settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		704E621E29E84DB0004FF31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		704E622129E84DB0004FF31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		704E622329E84DB0004FF31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C09D0E29FBFDA900F26865 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		70C09D1029FBFDC800F26865 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		70C09D1229FC0DD100F26865 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				704E621529E84DAE004FF31C /* AppDelegate.swift */,
 				704E621729E84DAE004FF31C /* SceneDelegate.swift */,
 				704E621B29E84DAE004FF31C /* Main.storyboard */,
+				70C09D1229FC0DD100F26865 /* settings.swift */,
+				70C09D1029FBFDC800F26865 /* SettingsTableViewController.swift */,
+				70C09D0E29FBFDA900F26865 /* SelectTimeViewController.swift */,
 				703F69DB29FAA53A0010BF77 /* GameScreen.swift */,
 				703F69DD29FAA9340010BF77 /* Game.swift */,
 				704E621E29E84DB0004FF31C /* Assets.xcassets */,
@@ -142,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				704E621629E84DAE004FF31C /* AppDelegate.swift in Sources */,
+				70C09D0F29FBFDA900F26865 /* SelectTimeViewController.swift in Sources */,
+				70C09D1129FBFDC800F26865 /* SettingsTableViewController.swift in Sources */,
 				703F69DC29FAA53A0010BF77 /* GameScreen.swift in Sources */,
 				704E621829E84DAE004FF31C /* SceneDelegate.swift in Sources */,
+				70C09D1329FC0DD100F26865 /* settings.swift in Sources */,
 				703F69DE29FAA9340010BF77 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
